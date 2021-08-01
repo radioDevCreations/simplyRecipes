@@ -1,12 +1,18 @@
 import React from "react";
 import styled from "styled-components";
 
-const FooterWrapper = styled.footer`
-  color: red;
-`;
-
 const Footer = () => {
-  return <FooterWrapper>Footer</FooterWrapper>;
+  return (
+    <footer className="page-footer">
+      <p>
+        &copy; {new Date().getFullYear()}{" "}
+        <a href="https://github.com/radioDevCreations/simplyRecipes/">
+          SimplyRecipes
+        </a>
+        . Built with <a href="https://www.gatsbyjs.com/">Gatsby</a>
+      </p>
+    </footer>
+  );
 };
 
 export default Footer;
