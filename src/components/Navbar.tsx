@@ -9,19 +9,19 @@ const Navbar = () => {
     <NavbarWrapper>
       <ul>
         <li>
-          <Link to="home">home</Link>
+          <Link to="/">home</Link>
         </li>
         <li>
-          <Link to="about">about</Link>
+          <Link to="/about">about</Link>
         </li>
         <li>
-          <Link to="contact">contact</Link>
+          <Link to="/contact">contact</Link>
         </li>
         <li>
-          <Link to="tags">tags</Link>
+          <Link to="/tags">tags</Link>
         </li>
         <li>
-          <Link to="recipes">recipes</Link>
+          <Link to="/recipes">recipes</Link>
         </li>
       </ul>
     </NavbarWrapper>

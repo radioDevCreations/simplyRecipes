@@ -6,7 +6,9 @@ const error = () => {
   return (
     <>
       <Reset />
-      <h1>error 404</h1>
+      <Layout>
+        <h1>error 404</h1>
+      </Layout>
     </>
   );
 };
