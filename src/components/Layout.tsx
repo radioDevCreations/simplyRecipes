@@ -4,7 +4,12 @@ import Footer from "./Footer";
 import "normalize.css";
 import "../assets/css/main.css";
 
-const Layout = ({ children }) => {
+export interface LayoutProps {
+  children: React.ReactNode;
+}
+
+const Layout = (props: LayoutProps) => {
+  const { children } = props;
   return (
     <>
       <Navbar />
