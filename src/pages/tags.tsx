@@ -1,7 +1,7 @@
-import React from "react";
+import React, { FC } from "react";
 import Layout from "../components/Layout";
 
-const Tags = () => {
+const Tags: FC = () => {
   return (
     <>
       <Layout>

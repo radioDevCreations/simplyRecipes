@@ -1,6 +1,7 @@
 import React, { FC } from "react";
 import Layout from "../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
+import AllRecipes from "../components/AllRecipes";
 
 const Home: FC = () => {
   return (
@@ -22,6 +23,7 @@ const Home: FC = () => {
               </div>
             </div>
           </header>
+          <AllRecipes />
         </main>
       </Layout>
     </>

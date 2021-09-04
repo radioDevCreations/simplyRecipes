@@ -2,7 +2,7 @@
     "include": [
         "./src/**/*",
         "custom.d.ts" //this setting makes typescript accept svg files
-    ],
+, "src/components/.tsx"    ],
     "compilerOptions": {
         "target": "esnext",
         "module": "esnext",

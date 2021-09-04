@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FC } from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import "normalize.css";
@@ -8,7 +8,7 @@ export interface LayoutProps {
   children: React.ReactNode;
 }
 
-const Layout = (props: LayoutProps) => {
+const Layout: FC<LayoutProps> = (props: LayoutProps) => {
   const { children } = props;
   return (
     <>

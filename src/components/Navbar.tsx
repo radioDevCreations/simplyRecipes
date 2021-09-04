@@ -1,9 +1,9 @@
-import React, { useState } from "react";
+import React, { FC, useState } from "react";
 import { Link } from "gatsby";
 import { GiHamburgerMenu } from "react-icons/gi";
 import logo from "../assets/images/logo.svg";
 
-const Navbar = () => {
+const Navbar: FC = () => {
   const [show, setShow] = useState(false);
 
   return (

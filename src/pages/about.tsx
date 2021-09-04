@@ -1,9 +1,9 @@
-import React from "react";
+import React, { FC } from "react";
 import Layout from "../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 
-const About = () => {
+const About: FC = () => {
   return (
     <>
       <Layout>
