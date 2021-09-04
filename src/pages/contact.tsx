@@ -1,7 +1,7 @@
-import React from "react";
+import React, { FC } from "react";
 import Layout from "../components/Layout";
 
-const Contact = () => {
+const Contact: FC = () => {
   return (
     <>
       <Layout>
