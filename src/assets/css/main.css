@@ -511,7 +511,9 @@ form > *:last-child {
     height: 100%;
   }
 }
-
+.featured-recipes {
+  padding-top: 3rem;
+}
 .featured-recipes > h5 {
   text-align: center;
   max-width: 100%;
