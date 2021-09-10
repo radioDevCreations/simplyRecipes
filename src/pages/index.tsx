@@ -2,11 +2,13 @@ import React, { FC } from "react";
 import Layout from "../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
 import AllRecipes from "../components/AllRecipes";
+import SEO from "../components/SEO";
 
 const Home: FC = () => {
   return (
     <>
       <Layout>
+        <SEO title="home"/>
         <main className="page">
           <header className="hero">
             <StaticImage

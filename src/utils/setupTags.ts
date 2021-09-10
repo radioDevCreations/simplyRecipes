@@ -12,7 +12,6 @@ const setupTags = (recipes: any) => {
   const newTags = Object.entries(allTags).sort((a, b) => {
     return a[0].localeCompare(b[0]);
   });
-  console.log(newTags);
   return newTags;
 };
 

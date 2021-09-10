@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import { StaticImage } from "gatsby-plugin-image";
 import { graphql, Link } from "gatsby";
 import RecipesList from "../components/RecipesList";
+import SEO from "../components/SEO";
 
 const About: FC<any> = (props: any) => {
   const {
@@ -13,6 +14,7 @@ const About: FC<any> = (props: any) => {
   return (
     <>
       <Layout>
+        <SEO title={"about"}/>
         <main className="page">
           <section className="about-page">
             <article>

@@ -19,7 +19,7 @@ exports.createPages = async ({ graphql, actions }) => {
     recipe.content.tags.forEach(tag => {
       const tagSlug = slugify(tag, { lower: true });
       createPage({
-        path: `/${tagSlug}`,
+        path: `/tags/${tagSlug}`,
         component: path.resolve(`src/templates/tag-template.tsx`),
         context: {
           tag: tag,
